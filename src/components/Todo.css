@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border-top: rgb(255, 255, 255);
+}
+
+.todo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.todo-title {
+    flex: 0 0 80%;
+    text-align: left;
+    margin-left: 2rem;
+    padding: 10px;
+    text-transform: capitalize;
+    color: rgb(54, 63, 71);
+}
